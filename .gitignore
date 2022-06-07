@@ -10,3 +10,4 @@ _mailinglist
 __pycache__/
 ssh_keys/do_ssh_key*
 .vagrant/
+Vagrantfile
