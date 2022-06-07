@@ -123,6 +123,7 @@ def before_request():
 @app.after_request
 def after_request(response):
     """Closes the database again at the end of the request."""
+    # gege
     g.db.close()
     return response
 
